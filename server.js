@@ -36,6 +36,11 @@ app.use('/api/v1/meta', metaRoutes);
 app.use('/api/v1/companies', companyRoutes);
 app.use('/api/v1/messages', messageRoutes);
 
+// Root route
+app.get('/', (req, res) => {
+  res.status(200).json({ success: true, message: 'OverseasJobs API is running. Use /health or /api/v1/* endpoints.' });
+});
+
 // Health Check
 app.get('/health', (req, res) => {
   res.status(200).json({ success: true, message: 'Server is healthy.' });
