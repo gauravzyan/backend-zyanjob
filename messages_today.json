@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3,
+    "sender_id": 101,
+    "receiver_id": 100,
+    "job_id": 104,
+    "message_text": "Thanks",
+    "created_at": "2026-06-01T14:28:58.000Z"
+  },
+  {
+    "id": 2,
+    "sender_id": 100,
+    "receiver_id": 101,
+    "job_id": 104,
+    "message_text": "10 am",
+    "created_at": "2026-06-01T14:28:20.000Z"
+  },
+  {
+    "id": 1,
+    "sender_id": 101,
+    "receiver_id": 100,
+    "job_id": 104,
+    "message_text": "Hello Harshit please share your number and time",
+    "created_at": "2026-06-01T14:23:31.000Z"
+  }
+]
